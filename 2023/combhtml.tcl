@@ -1,4 +1,5 @@
 set content(none) none
+set output stdout
 
 while {[llength $argv] > 0} {
   switch [lindex $argv 0] {
@@ -11,6 +12,10 @@ while {[llength $argv] > 0} {
        set var [lindex $argv 1]
        set content($var) [list filename [lindex $argv 2]]
        set argv [lreplace $argv 0 2]
+    }
+    -o {
+      set output [open [lindex $argv 1] w]
+      set argv [lreplace $argv 0 1]
     }
     default break
   }
@@ -41,4 +46,7 @@ foreach var [array names content] {
   if {$var eq "none"} continue
   set html [regsub -all "<!--$var-->" $html $content($var)]
 }
-puts $html
+puts $output $html
+if {$output ne "stdout"} {
+  close $output
+}
