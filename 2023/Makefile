@@ -4,7 +4,7 @@ COMMON_FLAG=-file HEADER header.htm -file MENU menu.htm
 COMMON_SOURCE=header.htm menu.htm template.htm
 
 TARGET=index.html committee.html cfp.html program.html registration.html \
-       dates.html venue.html authkit.html contact.html \
+       registration_domestic.html dates.html venue.html authkit.html contact.html \
 	   keynote.html visa.html accomodation.html
 
 all: $(TARGET)
@@ -21,6 +21,8 @@ program.html: $(COMMON_SOURCE) program_main.htm
 	$(GEN) $(COMMON_FLAG) -set TITLE "Program" -file MAIN program_main.htm -o program.html template.htm
 registration.html: $(COMMON_SOURCE) registration_main.htm
 	$(GEN) $(COMMON_FLAG) -set TITLE "Registration" -file MAIN registration_main.htm -o registration.html template.htm
+registration_domestic.html: $(COMMON_SOURCE) registration_domestic_main.htm
+	$(GEN) $(COMMON_FLAG) -set TITLE "Registration" -file MAIN registration_domestic_main.htm -o registration_domestic.html template.htm
 dates.html: $(COMMON_SOURCE) dates_main.htm
 	$(GEN) $(COMMON_FLAG) -set TITLE "Important Dates" -file MAIN dates_main.htm -o dates.html template.htm
 venue.html: $(COMMON_SOURCE) venue_main.htm
