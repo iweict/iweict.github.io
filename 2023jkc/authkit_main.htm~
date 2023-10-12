@@ -1,0 +1,59 @@
+  <div id="main_wrapper000" class="HPZAutoMarginAdjuster">
+  <div id="main">
+  <h2>Author's Guide</h2>
+  <hr>
+  <h3>Announcement</h3>
+The conference proceedings will be published in the book series of Smart Innovation, Systems
+and Technologies by Springer. Normally, papers in this series are indexed by EI. If the paper
+is not presented in the conference, the paper will be excluded from the conference proceedings. 
+  <h3>Presentation Guide</h3>
+<p>
+Each presentation has 20 minutes, including preparation. We prepare a PC for presentation in each room.
+Please copy the presentation slide (either PowerPoint or PDF format) to the presentation PC beforehand.
+If you need any special equipment, please contact iihmsp2018@spcom.ecei.tohoku.ac.jp.
+</p>
+<p>
+All authors are obliged to make a presentation.
+If you cannot attend the conference, we are planning to offer remote presentation. Please contact 
+ iihmsp2018@spcom.ecei.tohoku.ac.jp.
+</p>
+  <h3>Preparing Papers</h3>
+The papers should be prepared according to 
+<a target="_top" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">
+Springer's computer science proceedings guideline</a>.
+You can also find the paper templates for 
+<a href="ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip">LaTeX2e</a>, 
+<a href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Microsoft Word (newer format, docx)</a>
+and <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/7117506/data/v1">
+Microsoft Word (older format, doc)</a>. The paper should be no less than six pages.
+Before preparing the paper, please take a look at the
+<a target="_top" href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf">
+Guidelines for proceedings authors</a>.
+
+<h3>Submission</h3>
+
+      Please submit papers using <a href="https://easychair.org/conferences/?conf=iihmsp2018">EasyChair</a>.
+
+<h3 id="finalpaper">Submission of final papers and copyright transfer forms</h3>
+<ol>
+  <li>Revise your paper according to the review comments carefully.</li>
+  <li>Format your paper according to the Template carefully. You can
+find the paper templates for <a href="ftp://ftp.springernature.com/cs-proceeding/svproc/templates/ProcSci_TeX.zip">LaTeX2e</a> and
+<a href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Microsoft Word</a>. The paper should be no
+less than six pages. The paper more than eight pages are subject to
+the extra registration fee. Before preparing the paper, please take a
+look at the <a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">
+Guidelines </a> for proceedings authors.</li>
+  <li>Download and fill in the copyright form (either in the <a href="CTF.doc">Microsoft Word</a> format
+  or the <a href="CTF.pdf">PDF</a> format).</li>
+  <li>Download and complete <a href="https://iihmsp2018.github.io/registration.html">the Registration Form</a>.</li>
+  <li>Fill the registration form and finish the payment of registration fee.</li>
+  <li>Send your final paper, filled
+registration form and the scanned payment (in PDF or JPEG format) to us at iihmsp2018@spcom.ecei.tohoku.ac.jp (Before August 15,
+2018) (Very important)
+</li>
+</ol>
+
+<h3>
+  </div>
+  </div>
