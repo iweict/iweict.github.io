@@ -589,3 +589,15 @@ table.table9 th{
 ol.invitedsession {
     list-style-type: decimal-leading-zero;
 }
+#table_outborder {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+#table_outborder, #table_outborder th, #table_outborder td {
+  border: 0 1px 1px 0;
+}
+
+#table_outborder th, #table_outborder td {
+  border-width: 0;
+}
